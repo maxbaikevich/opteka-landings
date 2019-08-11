@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Opteka-landings</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="preload" href="fonts/DINPro-Medium.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/DINPro-CondensedBlack.woff" as="font" crossorigin="anonymous">
+    <meta name="viewport" content="width=divice-width,initial-scale=1">
+    
+</head>
+<body>
+    <header class="page-header">
+        <div class="page-header__wrapper">
+            <div class="container">
+                <nav class="main-nav">
+                    <button class="main-nav__toggle main-nav__toggle--nojs" type="button">
+                        <span class="visually-hidden">Открыть меню</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.75 4.5H7.25C6.55964 4.5 6 5.05964 6 5.75C6 6.44036 6.55964 7 7.25 7H20.75C21.4404 7 22 6.44036 22 5.75C22 5.05964 21.4404 4.5 20.75 4.5ZM7.25 10.75H20.75C21.4404 10.75 22 11.3096 22 12C22 12.6904 21.4404 13.25 20.75 13.25H7.25C6.55964 13.25 6 12.6904 6 12C6 11.3096 6.55964 10.75 7.25 10.75ZM7.25 17H20.75C21.4404 17 22 17.5596 22 18.25C22 18.9404 21.4404 19.5 20.75 19.5H7.25C6.55964 19.5 6 18.9404 6 18.25C6 17.5596 6.55964 17 7.25 17ZM3.25 19.5C2.55964 19.5 2 18.9404 2 18.25C2 17.5596 2.55964 17 3.25 17C3.94036 17 4.5 17.5596 4.5 18.25C4.5 18.9404 3.94036 19.5 3.25 19.5ZM2 12C2 12.6904 2.55964 13.25 3.25 13.25C3.94036 13.25 4.5 12.6904 4.5 12C4.5 11.3096 3.94036 10.75 3.25 10.75C2.55964 10.75 2 11.3096 2 12ZM3.25 7C2.55964 7 2 6.44036 2 5.75C2 5.05964 2.55964 4.5 3.25 4.5C3.94036 4.5 4.5 5.05964 4.5 5.75C4.5 6.44036 3.94036 7 3.25 7Z" fill="#1C1C1C"></path>
+                        </svg>
+                    </button>
+                    <div class="main-nav__wrapper">
+                        <ul class="site-list">
+                            <li class="site-list__item">
+                                <a class="site-list__link">Москва</a>
+                            </li>
+                            <li class="site-list__item">
+                                <a class="site-list__link">Адреса салонов</a>
+                            </li>
+                            <li class="site-list__item">
+                                <a class="site-list__link">Доставка и оплата</a>
+                            </li>
+                            <li class="site-list__item">
+                                <a class="site-list__link">Акции</a>
+                            </li>
+                            <li class="site-list__item">
+                                <a class="site-list__link">О компании</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="mai-nav__logo-link" href="#"></a>
+                    <ul class="user-box">
+                        <li class="user-box__item">
+                            <a class="user-box__baslet" href="#"><span class="visually-hidden">Корзина</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.1385 8C8.28604 7.03218 8.55244 6.21074 8.94441 5.57518C9.53832 4.61218 10.4613 4 11.9995 4C13.5377 4 14.4607 4.61218 15.0546 5.57518C15.4466 6.21074 15.713 7.03218 15.8605 8H8.1385ZM5.99951 10C5.99951 10.5523 6.44723 11 6.99951 11C7.5518 11 7.99951 10.5523 7.99951 10H15.9995C15.9995 10.5523 16.4472 11 16.9995 11C17.5518 11 17.9995 10.5523 17.9995 10H19.5724C20.2014 10 20.6742 10.5738 20.554 11.1912L19.1903 18.1912C19.0988 18.6609 18.6873 19 18.2088 19H6.09608C5.62918 19 5.22442 18.6769 5.12095 18.2216L3.53004 11.2216C3.38782 10.5959 3.86345 10 4.50517 10H5.99951ZM6.11909 8C6.28322 6.71777 6.63 5.51783 7.24212 4.52532C8.2107 2.95482 9.78768 2 11.9995 2C14.2113 2 15.7883 2.95482 16.7569 4.52532C17.369 5.51783 17.7158 6.71777 17.8799 8H19.5724C21.4594 8 22.8779 9.72143 22.5171 11.5736L21.1534 18.5736C20.8789 19.9828 19.6445 21 18.2088 21H6.09608C4.69538 21 3.48111 20.0307 3.17068 18.6649L1.57977 11.6649C1.15312 9.78757 2.58001 8 4.50517 8H6.11909Z" fill="#1C1C1C"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="page-main">
+            <div class="container">
+                <section class="progress">
+                    <h1 class="progress__title global__title global__title-hedline">Вы ищете индивидуальное решение?</h1>
+                    <ul class="progress__box progress-list">
+                        <li class="progress-list__item">
+                            <p class="progress-list__text global__text">Мы уже изготовили более 400 000 пар индивидуальных стелек</p>
+                        </li>
+                        <li class="progress-list__item">
+                            <p class="progress-list__text global__text">В нашем салоне можно изготовить стельку за 1 час</p>
+                        </li>
+                        <li class="progress-list__item">
+                            <p class="progress-list__text global__text">Подарим комфорт Вашим ногам в любой обуви</p>
+                        </li>
+                    </ul>
+                    <form class="form">
+                        <fieldset class="form-signup">
+                            <ul class="form__list">
+                                <li class="form__item">
+                                    <input class="form__input" type="text" name="name" placeholder="Ваше имя">
+                                </li>
+                                <li class="form__item">
+                                    <input class="form__input" type="tel" name="number" placeholder="Ваш номер телефона">
+                                </li>
+                                <li class="form__item">
+                                    <button class="form__btn button">Записаться  на диагностику</button>
+                                </li>
+                            </ul>
+                            <p class="form__text global__text">Нажимая на кнопку «Записаться на диагностику», вы принимаете условия <a class="form__text-link" href="#">Публичной оферты</a></p>
+                        </fieldset>
+                    </form>
+                </section>
+            </div>
+        
+        <section class="personality">
+          <div class="container">
+	          <div class="personality__wrapper">
+	            <div class="container--mod">
+		            <div class="personality__img-box">
+		            	<img class="personality__img" src="img/heel.png" width="240" height="242" alt="каблук">
+		            </div>
+		            <div class="personality__text-box">
+			            <h2 class="personality__title global__title-hedline">Сохраняем Вашу индивидуальность</h2>
+			            <p class="personality__text">
+		                Вам знакомо: чувство усталости и тяжести, дискомфорт и боль в различных отделах стоп? Современная медицина подтверждает, что тяжесть, усталость и боль — это самые яркие проявления разных степеней плоскостопия. К другим симптомам этой массовой проблемы относятся отёчность ног, стаптывание каблуков обуви с одной стороны и сложность<br>при подборе обуви.</p>
+		              <p class="personality__text">Хотите найти решение, которое снимает боль, сохраняет  вашу красоту и дарит абсолютный комфорт уже сегодня?</p>
+		              <p class="personality__text">Для решения этой и связанных задач опытные врачи-ортопеды и инженеры-специалисты разработали уникальные конструкционные элементы и комбинации  ортопедических стелек ORTMANN-PRO.</p>
+		            </div>
+		          </div>
+		          <div class="personality__image-box">
+		            <img class="personality__video" src="img/video.png" width="320" height="180" alt="видео">
+		            <button class="personality__btn button__elips">
+		            	<svg width="88" height="84" viewBox="0 0 88 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M88 47.457C88 67.7138 52.5515 86.8426 25.8453 83.6492C6.24924 81.3059 -2.12778 58.5607 0.456557 35.535C7.60965 -28.1972 88 5.10002 88 47.457Z" fill="#0094B3"></path>
+									</svg>
+		            </button>
+		          </div>
+		        </div>
+		      </div>
+		    </section>
+        <section class="advantages">
+          <div class="container">
+            <div class="advantages__wrapper">
+              <h2 class="advantages__title global__title-hedline">Что полезно знать <br>о пользе настоящих индивидуальных ортопедических стелек</h2>
+              <p class="advantages__text global__text">
+                  Индивидуальные ортопедические стельки ORTMANN-PRO создаются согласно системе европейского качества индивидуальных ортопедических стелек и сертифицированы по стандарту ISO 13485:2003 для медицинских изделий.  
+                  </p><p class="advantages__text global__text">ORTMANN-PRO имеют регистрационное удостоверение на медицинское изделие от Росздравнадзора. Данный документ гарантирует лечебный эффект и позволяет удостовериться в безопасности изделия.</p>
+                  <p class="advantages__text global__text">Индивидуальные ортопедические стельки ORTMANN-PRO уникальны. Их конструкция учитывает анатомические и функциональные особенности каждой стопы пациента. Амортизируют зону пятки и передний отдел стопы, уменьшая ударную нагрузку  и обеспечивая правильную биомеханику шага.</p>
+              <p></p>
+              <div class="advantages__img-box">
+              	<img class="advantages__img" src="img/sneaker.png" width="280" height="184" alt="кросовок">
+              <ul class="advantages-list">
+                  <li class="advantages-list__item">
+                      <p class="advantages-list__text global__sub-text">Разгружают передний отдел стопы, возвращая этой зоне естественную арочную архитектуру</p>
+                  </li>
+                  <li class="advantages-list__item">
+                      <p class="advantages-list__text global__sub-text">Поддерживают продольный свод стопы, обеспечивая правильную рессорную функцию</p>
+                  </li>
+                  <li class="advantages-list__item">
+                      <p class="advantages-list__text global__sub-text">Фиксируют пятку в «чашке» каркаса при ходьбе</p>
+                  </li>
+                  <li class="advantages-list__item">
+                      <p class="advantages-list__text global__sub-text">Удерживают лечебные элементы в правильном положении даже при интенсивной ходьбе</p>
+                  </li>
+                  <li class="advantages-list__item">
+                      <p class="advantages-list__text global__sub-text">Специальные торсионы ORTMANN-PRO препятствуют скручиванию стельки для правильной ходьбы</p>
+                  </li>
+                  <li class="advantages-list__item">
+                      <p class="advantages-list__text global__sub-text">Все элементы создают <br>с обувью единую защитную систему стоп</p>
+                  </li>
+              </ul>
+	          </div>
+	        </div>
+        </div></section>
+        <section class="instruction">
+          <div class="container">
+          	<div class="instruction__wrapper">
+          		<div class="instruction__grid">
+          			<div class="instruction__img-box">
+          				<img class="instruction__img" src="img/123.png" width="195" height="375" alt="красивая со стельками">
+              	<h2 class="instruction__title global__title-hedline">У нас есть профессиональное индивидуальное решение для  здоровья<br> ваших стоп!</h2>
+              	<svg class="instruction__svg" width="221" height="247" viewBox="0 0 221 247" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M221 139.546C221 199.111 101.361 255.359 11.2281 245.968C-54.9088 239.078 -83.1813 172.196 -74.4591 104.49C-50.3174 -82.9132 221 14.9965 221 139.546Z" fill="#0094B3"></path>
+								</svg>
+							</div>
+              <div class="we-made">
+                <p class="we-made__text-top">Мы изготовили</p>
+                <ul class="we-made__list">
+                    <li class="we-made__item">3</li>
+                    <li class="we-made__item">5</li>
+                    <li class="we-made__item">7</li>
+                    <li class="we-made__item">8</li>
+                    <li class="we-made__item">9</li>
+                    <li class="we-made__item">3</li>
+                </ul>
+                <p class="we-made__text-botton">стелек</p>
+              </div>
+            </div>
+            <svg class="instruction__bottom-svg" width="320" height="130" viewBox="0 0 320 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M-800 1079.68C-450 1367.31 770 1367.31 1120 1079.68V51.4003C84 -162.6 -114 381.4 -800 103.4V1079.68Z" fill="#004153"></path>
+						</svg>
+          </div>
+        </div></section>
+        <section class="feet-box">
+            <div class="container-mod">
+                <h2 class="">Скан Ваших стоп после проведения диагностики</h2>
+                <div class="slider-feet">
+                    <ul class="slider-feet__list">
+                        <li class="slider-feet__item">
+                            <img class="slider-feet__img" src="#" alt="скан стопы">
+                        </li>
+                        <li class="slider-feet__item">
+                            <img class="slider-feet__img" src="#" alt="скан стопы">
+                        </li>
+                        <li class="slider-feet__item">
+                            <img class="slider-feet__img" src="#" alt="скан стопы">
+                        </li>
+                        <li class="slider-feet__item">
+                            <img class="slider-feet__img" src="#" alt="скан стопы">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="individual-box">
+            <h2 class="individual__title global__title-hedline">Индивидуальная стелька под Ваши потребности</h2>
+            <div class="container-mod">
+                <ul class="individual-slider">
+                    <li class="individual-slider__item">
+                        <img class="individual-slider__img" src="#" alt="Индивидуальная стелька">
+                    </li>
+                    <li class="individual-slider__item">
+                        <img class="individual-slider__img" src="#" alt="Индивидуальная стелька">
+                    </li>
+                    <li class="individual-slider__item">
+                        <img class="individual-slider__img" src="#" alt="Индивидуальная стелька">
+                    </li>
+                    <li class="individual-slider__item">
+                        <img class="individual-slider__img" src="#" alt="Индивидуальная стелька">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="order">
+            <div class="conteiner">
+                <h2 class="order__title global__title-hedline">Как заказать индивидуальные ортопедические стельки</h2>
+                <p class="order__text global__text">Индивидуальные ортопедические стельки ORTMANN-PRO конструируют на основании персональной консультации специалиста- ортопеда и компьютерной диагностики, позволяющей определитьанатомические 	параметры стопы с точностью до миллиметров и, значит, установить в максимально правильном положении все элементы стельки, каждый из которых обладает лечебными свойствами.
+                </p>
+                <ul class="order__list">
+                    <li class="order__item">
+                        <img class="order__img" src="#" alt="Запишитесь на консультацию">
+                        <p class="order__text global__text">Запишитесь на консультацию к специалисту-ортопеду</p>
+                    </li>
+                    <li class="order__item">
+                        <img class="order__img" src="#" alt="Сделайте компьютерную диагностику стопы">
+                        <p class="order__text global__text">Сделайте компьютерную диагностику стопы</p>
+                    </li>
+                    <li class="order__item">
+                        <img class="order__img" src="#" alt="Запишитесь на консультацию">
+                        <p class="order__text global__text">Получите рекомендацию специалиста-ортопеда</p>
+                    </li>
+                    <li class="order__item">
+                        <img class="order__img" src="#" alt="Заключите договор">
+                        <p class="order__text global__text">Заключите договор на изготовление индивидуальных ортопедических стелек (срок изготовления 7 рабочих дней)</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="program">
+            <div class="container">
+                <h2 class="program__title global__title-hedline">Программа сопровождения индивидуальных стелек</h2>
+                <ul class="program__list">
+                    <li class="program__item">
+                        <div class="program__time">
+                            <span class="program__time-element">14</span>
+                            <span class="program__time-text">дней</span>
+                        </div>
+                        <p class="program__item-text global__text">Осмотр и корректировка</p>
+                    </li>
+                    <li class="program__item">
+                        <div class="program__time">
+                            <span class="program__time-element">3</span>
+                            <span class="program__time-text">мес.</span>
+                        </div>
+                        <p class="program__item-text global__text">Оценка динамики</p>
+                    </li>
+                    <li class="program__item">
+                        <div class="program__time">
+                            <span class="program__time-element">14</span>
+                            <span class="program__time-text">мес.</span>
+                        </div>
+                        <p class="program__item-text global__text">Осмотр и рекомендации</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="make-up">
+            <div class="container">
+                <h2 class="make-up__title global__title-hedline">Вам нужно лучшее решение всего за 30 минут?</h2>
+                <p class="make-up__text global__text">Мы знаем, как профессионально сохранить вашу индивидуальность!</p>
+                <form class="form">
+                    <fieldset class="form-signup">
+                        <ul class="form__list">
+                            <li class="form__item">
+                                <input type="text" name="name" placeholder="Ваше имя">
+                            </li>
+                            <li class="form__item">
+                                <input type="tel" name="number" placeholder="Ваш номер телефона">
+                            </li>
+                            <li class="form__item">
+                                <button class="form__btn button">Записаться  на диагностику</button>
+                            </li>
+                        </ul>
+                        <p class="form__text form__text--mod global__text">Нажимая на кнопку «Записаться на диагностику», вы принимаете условия <a class="form__text-link form__text-link--mod">Публичной оферты</a></p>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <section class="contacts">
+            <div class="container">
+                <ul class="contacts__list">
+                    <ul class="contacts__item">
+                        <a class="contacts__link" href="#">
+                            <img class="contacts__image" src="#" alt="logo">
+                        </a>
+                    </ul>
+                    <li class="contacts__item">
+                        <div class="contacts__phone">
+                            <a class="contacts__number" href="tel:84957755000">8 495 77-55-000</a>
+                        </div>
+                    </li>
+                    <li class="contacts__item">
+                        <section class="footer-social">
+                <h2 class="visually-hidden">Социальные сети</h2>
+                <ul class="footer-social__box footer-social-list">
+                  <li class="footer-social-list__item">
+                    <a class="footer-social-list__buttom" href="#">
+                      <span class="visually-hidden">Твиттер</span>
+                    </a>
+                  </li>
+                  <li class="footer-social-list__item">
+                    <a class="footer-social-list__buttom" href="#">
+                      <span class="visually-hidden">Фейсбук</span>
+                    </a>
+                  </li>
+                  <li class="footer-social-list__item">
+                    <a class="footer-social-list__buttom" href="#">
+                      <span class="visually-hidden">Ютюб</span>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+          </li>
+          <li class="contacts__item">
+              <a class="contacts__item-link">
+                  <img class="contacts__item-link__img" src="#" alt="logo">
+              </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="services">
+        <h2 class="visually-hidden">Услуги</h2>
+        <div class="container">
+            <div class="buyers">
+                <ul class="buyers__list">
+                    <li class="buyers__item">
+                        <a class="buyers__link" href="#">Покупателям</a>
+                    </li>
+                    <li class="buyers__item">
+                        <a class="buyers__link" href="#">Доставка и оплата</a>
+                    </li>
+                    <li class="buyers__item">
+                        <a class="buyers__link" href="#">Пункты самовывоза</a>
+                    </li>
+                    <li class="buyers__item">
+                        <a class="buyers__link" href="#">Обратная связь</a>
+                    </li>
+                    <li class="buyers__item">
+                        <a class="buyers__link" href="#">Возврат и обмен</a>
+                    </li>
+                    <li class="buyers__item">
+                        <a class="buyers__link" href="#">Бренды</a>
+                    </li>
+                    <li class="buyers__item">
+                        <a class="buyers__link" href="#">Подарочные карты</a>
+                    </li>
+                    <li class="buyers__item">
+                        <a class="buyers__link" href="#">Дисконтная программа</a>
+                    </li> 
+                        <li class="buyers__item">
+                        <a class="buyers__link" href="#">Медицинские услуги</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="medical-services">
+                <ul class="medical-services__list">
+                    <li class="medical-services__item">
+                        <a class="medical-services__link" href="#">Медицинские услуги</a>
+                    </li>
+                    <li class="medical-services__item">
+                        <a class="medical-services__link" href="#">Законодательная карта</a>
+                    </li>
+                    <li class="medical-services__item">
+                        <a class="medical-services__link" href="#">Договор оферты</a>
+                    </li>
+                    <li class="medical-services__item">
+                        <a class="medical-services__link" href="#">Соглашение на ОПД</a>
+                    </li>
+                    <li class="medical-services__item">
+                        <a class="medical-services__link" href="#">Лицензии</a>
+                        </li>
+                    <li class="medical-services__item">
+                        <a class="medical-services__link" href="#">Компенсация ДСЗН</a>
+                    </li>
+                    <li class="medical-services__item">
+                        <a class="medical-services__link" href="#">Диагностика стопы</a>
+                    </li>
+                    <li class="medical-services__item">
+                        <a class="medical-services__link" href="#">Подбор медицинских изделий</a>
+                    </li>
+                    <li class="medical-services__item">
+                        <a class="medical-services__link" href="#">Подбор, заказ и коррекция индивидуальных стелек</a>
+                    </li>
+                </ul>
+            </div>
+    </div></section>
+    <section class="copyright">
+        <div class="container">
+            <div class="copyright__box">
+                <p class="copyright__text">ООО «НИКАМЕД», 2001 — 2018. Все права защищены Возможны противопоказания — проконсультируйтесь с врачом</p>
+              </div>
+              <div class="assessment">
+                <p class="assessment__text">Независимая оценка качества оказания услуг медицинскими организациями</p>
+                <a class="assessment__link" href="#">Участвовать в голосовании</a>
+              </div>
+          </div>
+        </section>
+    </footer>
+</body>
+</html>
