@@ -1,0 +1,82 @@
+.program__wrapper {
+	background-color: #F1E3DB;
+	position: relative;
+	z-index: 7;
+
+}
+
+.program__list {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 70px;
+	margin-bottom: 0;
+
+}
+.program__title {
+	text-align: center;
+	padding-top: 57px;
+	margin-bottom: 38px;
+	font-size: 36px;
+line-height: 39px;
+}
+.program__item {
+	position: relative;
+}
+
+.program__item::before {
+	content:url('../img/strelka.png');
+	width:23px;
+	height: 66px;
+	position: absolute;
+	top: 142px;
+	left: 95px;
+}
+.program__item:last-child::before {
+	content: none;
+}
+.program__item:nth-child(2)::before {
+	left: 65px;
+}
+
+.program__time{
+	margin: 0 auto;
+	position: relative;
+	background-image:url('../img/Vector-pusto.png');
+	width: 84px;
+	height: 85px;
+	text-align: center;
+	margin-bottom: 15px;
+
+}
+.program__time-element {
+	font-size: 30px;
+	line-height: 28px;
+
+	color: #004153;
+	margin: 0;
+	padding-top: 17px;
+	margin-left: -5px;
+
+
+
+}
+.program__time-text {
+	font-size: 16px;
+	line-height: 22px;
+	margin-top: 10px;
+	padding: 0;
+	margin: 0;
+	margin-top: -3px;
+	color: #004153;
+}
+.program__item-text {
+	font-size: 20px;
+	color: #004153;
+	line-height: 24px;
+}
+.program__item {
+	margin-bottom: 98px;
+}

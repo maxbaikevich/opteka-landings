@@ -1,0 +1,88 @@
+.order__wrapper {
+	padding-top: 83px;
+	background-color: #F1E3DB;
+	position: relative;
+	padding-bottom: 10px;
+	
+}
+.order__title {
+	font-size: 36px;
+line-height: 39px;
+position: relative;
+z-index: 3;
+margin-bottom: 18px;
+}
+.order__wrapper::before {
+	position: absolute;
+	content:url('../img/vector-smol.svg');
+	width: 274px;
+	height: 228px;
+	z-index: 1;
+	top: 20px;
+}
+.order__text{
+font-size: 18px;
+line-height: 28px;
+color: #004153;
+padding-bottom: 25px;
+}
+.order__text__span {
+	font-weight: 900;
+
+}
+.order__list {
+	padding: 0;
+	list-style: none;
+	
+}
+
+.order__img__text {
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	padding: 0;
+	padding-top: 14px;
+	margin-left: -18px;
+}
+
+.order__item {
+	position: relative;
+	margin-bottom: 65px;
+	padding-left: 15px;	
+}
+.order__item::before {
+	content:'1';
+	position: absolute;
+	background-image:url('../img/vector-oval.svg');
+	background-repeat:no-repeat;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 24px;
+	color: #FFFFFF;
+	padding-top: 17px;
+	left: 178px;
+	top: 160px;
+}
+.order__item:nth-child(2)::before {
+	content:'2';
+}
+
+.order__item:nth-child(3)::before {
+	content:'3';
+}
+
+.order__item:nth-child(4)::before {
+	content:'4';
+}
+
+.order__item:nth-child(2) {
+	margin-bottom: 40px;
+}
+.order__item:nth-child(3) {
+	margin-bottom: 40px;
+}
+.order__item:nth-child(4) {
+	margin-bottom: 0;
+}
